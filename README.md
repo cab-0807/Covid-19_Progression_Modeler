@@ -1,1 +1,5 @@
 # Covid-19_Progression_Modeler
+L’année 2020 et 2021 sont marquées par la progression du COVID 19. Afin d’informer la population sénégalaise, chaque jour un communiqué de presse est diffusé en ligne par le Ministère de la Santé et de l’Action Sociale du Sénégal.
+Un groupe de scientifique désireux de regrouper et analyser ces données pour la compréhension de sa diffusion dans le territoire sénégalais engage un groupe de développeurs pour concevoir et développer une solution permettant de modéliser son évolution spatiale et temporelle.
+La solution envisagée est un système intégré devant répondre au cahier des charges fonctionnelles qui suit.
+Il est présenté ici sous la forme de l’architecture du système ainsi que des fonctionnalités attendues par l’utilisateur. On trouvera ainsi dans la description des modules attendues et la présentation des fonctionnalités / différents usages possibles.
