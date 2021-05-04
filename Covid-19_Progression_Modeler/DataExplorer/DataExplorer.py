@@ -30,6 +30,7 @@ class SvgViewer(QtWidgets.QGraphicsView):
         self._renderer = QSvgRenderer()
         self.setScene(self._scene)
 
+#Liste des regions sur la carte obtenue
     def set_svg(self, data):
         self.resetTransform()
         self._scene.clear()
@@ -112,3 +113,4 @@ if __name__ == '__main__':
     window.show()
     
     sys.exit(app.exec_())
+
