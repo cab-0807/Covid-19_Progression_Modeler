@@ -5,7 +5,7 @@ CREATE DATABASE IF NOT EXISTS `DataLoader`;
 USE `DataLoader`;
 
 --Création de la table Communiques
-CREATE TABLE IF NOT EXISTS `Communiques` (
+CREATE TABLE IF NOT EXISTS `Communiques`(
   `id_communique` int(5) PRIMARY KEY,
   `date` varchar(50) DEFAULT "NULL",
   `nb_test` int(5) NOT NULL DEFAULT 0,
@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `Communiques` (
 );
 
 --Création de la table Regions
-CREATE TABLE IF NOT EXISTS `Regions` (
+CREATE TABLE IF NOT EXISTS `Regions`(
   `NomRegion` varchar(50) DEFAULT "NULL" PRIMARY KEY,
   `Nbre_Cas` int(5) NOT NULL DEFAULT 0 
 );
