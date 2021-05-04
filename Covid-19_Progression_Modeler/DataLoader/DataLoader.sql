@@ -1,3 +1,4 @@
+--Creation de la base de donnee DataLoader
 CREATE DATABASE IF NOT EXISTS `DataLoader` ;
 
 USE `DataLoader`;
