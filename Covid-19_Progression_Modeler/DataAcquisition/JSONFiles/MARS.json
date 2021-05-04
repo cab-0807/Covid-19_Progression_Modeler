@@ -1,0 +1,264 @@
+{
+   "29-3-202": {
+      "id_com": "393",
+      "date": "29-3-202",
+      "nb_test": "1139",
+      "nb_nv_cas": "46",
+      "nb_cas_contact": "11",
+      "nb_cas_communautaire": "0",
+      "nb_gueris": "37040",
+      "nb_deces": "1044",
+      "date_heure_extraction": "2021-04-13",
+      "KOLDA": {
+         "NbreCas": "3"
+      },
+      "VELINGARA": {
+         "NbreCas": "3"
+      },
+      "3": {},
+      "SARAYA": {
+         "NbreCas": "2"
+      },
+      "THIES": {
+         "NbreCas": "2"
+      },
+      "ZIGUINCHOR": {
+         "NbreCas": "2"
+      },
+      "KAOLACK": {
+         "NbreCas": "1"
+      },
+      "SAINT-LOUIS": {
+         "NbreCas": "1"
+      },
+      "TASSETTE": {
+         "NbreCas": "1"
+      },
+      "THIENABASECK": {
+         "NbreCas": "1"
+      },
+      "TOUBA": {
+         "NbreCas": "1"
+      },
+      "DAKAR": {
+         "LIBERTE3": {
+            "NbreCas": "2"
+         },
+         "LIBERTE6": {
+            "NbreCas": "0"
+         },
+         "DIAMNIADIO": {
+            "NbreCas": "2"
+         },
+         "MARISTES": {
+            "NbreCas": "2"
+         },
+         "DAKARNORD": {
+            "NbreCas": "2"
+         },
+         "DAKARPLATEAU": {
+            "NbreCas": "2"
+         },
+         "FANNRESIDENCE": {
+            "NbreCas": "1"
+         },
+         "GUEDIAWAYE": {
+            "NbreCas": "1"
+         },
+         "MERMOZ": {
+            "NbreCas": "1"
+         },
+         "SEBIKOTANE": {
+            "NbreCas": "1"
+         }
+      }
+   },
+   "27-3-2021": {
+      "id_com": "391",
+      "date": "27-3-2021",
+      "nb_test": "1842",
+      "nb_nv_cas": "102",
+      "nb_cas_contact": "47",
+      "nb_cas_communautaire": "0",
+      "nb_gueris": "36422",
+      "nb_deces": "1034",
+      "date_heure_extraction": "2021-04-13",
+      "5": {},
+      "KOLDA": {
+         "NbreCas": "4"
+      },
+      "BOUNKILING": {
+         "NbreCas": "2"
+      },
+      "TOUBA": {
+         "NbreCas": "2"
+      },
+      "TAIBANDIAYE": {
+         "NbreCas": "1"
+      },
+      "DAROUMOUSTY": {
+         "NbreCas": "1"
+      },
+      "DIOFFIOR": {
+         "NbreCas": "1"
+      },
+      "FATICK": {
+         "NbreCas": "1"
+      },
+      "1": {},
+      "KEDOUGOU": {
+         "NbreCas": "1"
+      },
+      "MATAM": {
+         "NbreCas": "1"
+      },
+      "NIORODURIP": {
+         "NbreCas": "1"
+      },
+      "SARAYA": {
+         "NbreCas": "1"
+      },
+      "VELINGARA": {
+         "NbreCas": "1"
+      },
+      "DAKAR": {
+         "MARISTES": {
+            "NbreCas": "3"
+         },
+         "OUESTFOIRE": {
+            "NbreCas": "2"
+         },
+         "DAKARPLATEAU": {
+            "NbreCas": "3"
+         },
+         "FANNRESIDENCE": {
+            "NbreCas": "2"
+         },
+         "NORDFOIRE": {
+            "NbreCas": "2"
+         },
+         "SACRE-COEUR2": {
+            "NbreCas": "2"
+         },
+         "CITEMIXTA": {
+            "NbreCas": "1"
+         },
+         "DIEUPPEUL": {
+            "NbreCas": "1"
+         },
+         "HLMFASS": {
+            "NbreCas": "1"
+         },
+         "ZAKMBAO": {
+            "NbreCas": "6"
+         },
+         "KEURMOMARSARR": {
+            "NbreCas": "1"
+         },
+         "KEURMASSAR": {
+            "NbreCas": "1"
+         },
+         "LIBERTE3": {
+            "NbreCas": "1"
+         },
+         "MALIKA": {
+            "NbreCas": "6"
+         },
+         "MEDINAYOROFOULA": {
+            "NbreCas": "6"
+         },
+         "NIARYTALY": {
+            "NbreCas": "6"
+         },
+         "RUFISQUE": {
+            "NbreCas": "6"
+         },
+         "THIAROYESURMER": {
+            "NbreCas": "6"
+         },
+         "KEBEMER": {
+            "NbreCas": "6"
+         },
+         "YARAKH": {
+            "NbreCas": "6"
+         }
+      }
+   },
+   "28-3-2021": {
+      "id_com": "392",
+      "date": "28-3-2021",
+      "nb_test": "1850",
+      "nb_nv_cas": "64",
+      "nb_cas_contact": "27",
+      "nb_cas_communautaire": "0",
+      "nb_gueris": "36753",
+      "nb_deces": "1037",
+      "date_heure_extraction": "2021-05-01",
+      "KOLDA": {
+         "NbreCas": "6"
+      },
+      "TOUBA": {
+         "NbreCas": "2"
+      },
+      "TAMBACOUNDA": {
+         "NbreCas": "1"
+      },
+      "1": {},
+      "ZIGUINCHOR": {
+         "NbreCas": "1"
+      },
+      "DAKAR": {
+         "KEURMOMARSARR": {
+            "NbreCas": "2"
+         },
+         "KEURMBAYEFALL": {
+            "NbreCas": "2"
+         },
+         "LIBERTE3": {
+            "NbreCas": "6"
+         },
+         "PIKINE": {
+            "NbreCas": "6"
+         },
+         "DAKARPLATEAU": {
+            "NbreCas": "6"
+         },
+         "RUFISQUE": {
+            "NbreCas": "6"
+         },
+         "CITEMIXTA": {
+            "NbreCas": "1"
+         },
+         "CITESOPRIM": {
+            "NbreCas": "1"
+         },
+         "DIEUPPEUL": {
+            "NbreCas": "1"
+         },
+         "HLMFASS": {
+            "NbreCas": "1"
+         },
+         "HLMGRANDYOFF": {
+            "NbreCas": "1"
+         },
+         "MAMELLES": {
+            "NbreCas": "1"
+         },
+         "MEDINAYOROFOULA": {
+            "NbreCas": "1"
+         },
+         "NORDFOIRE": {
+            "NbreCas": "1"
+         },
+         "OUAKAM": {
+            "NbreCas": "1"
+         },
+         "OUESTFOIRE": {
+            "NbreCas": "1"
+         },
+         "SICAPBAOBABS": {
+            "NbreCas": "1"
+         }
+      }
+   }
+}
