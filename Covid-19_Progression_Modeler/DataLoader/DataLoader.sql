@@ -18,6 +18,7 @@ CREATE TABLE IF NOT EXISTS `Communiques` (
 
 ) ;
 
+--Création de la table Regions
 CREATE TABLE IF NOT EXISTS `Regions` (
   `NomRegion` varchar(50) DEFAULT "NULL" PRIMARY KEY,
   `Nbre_Cas` int(5) NOT NULL DEFAULT 0
