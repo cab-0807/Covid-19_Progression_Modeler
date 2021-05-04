@@ -1,5 +1,7 @@
+--Creation de la base de donnée DataLoader
 CREATE DATABASE IF NOT EXISTS `DataLoader` ;
 
+--Utilisation de la base de donnée DataLoader
 USE `DataLoader`;
 
 CREATE TABLE IF NOT EXISTS `Communiques` (
