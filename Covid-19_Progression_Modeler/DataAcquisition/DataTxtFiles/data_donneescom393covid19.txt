@@ -1,0 +1,9 @@
+id_com 393
+date__ 29-3-202
+nb_test 1139
+nb_nv_cas 46
+nb_cas_contact 11
+nb_cas_communautaire Y
+nb_gueris 37040
+nb_deces 1044
+date___heure_extraction 2021-04-13
