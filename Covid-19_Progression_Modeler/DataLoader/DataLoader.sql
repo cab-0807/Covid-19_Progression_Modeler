@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `Regions`(
   `Nbre_Cas` int(5) NOT NULL DEFAULT 0 
 );
 
---Insertion de valeur dans la table Region
+--Insertion de valeurs dans la table Region
 INSERT INTO `Regions` VALUES ("DAKAR",0);
 INSERT INTO `Regions` VALUES ("DIOURBEL",0);
 INSERT INTO `Regions` VALUES ("FATICK",0);
