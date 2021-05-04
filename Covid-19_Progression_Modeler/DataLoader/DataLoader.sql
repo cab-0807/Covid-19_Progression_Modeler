@@ -1,9 +1,10 @@
---Creation de la base de donnée DataLoader
+--Création de la base de donnée DataLoader
 CREATE DATABASE IF NOT EXISTS `DataLoader` ;
 
 --Utilisation de la base de donnée DataLoader
 USE `DataLoader`;
 
+--Création de la table Communiques
 CREATE TABLE IF NOT EXISTS `Communiques` (
   `id_communique` int(5) PRIMARY KEY,
   `date` varchar(50) DEFAULT "NULL",
