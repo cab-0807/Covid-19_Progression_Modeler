@@ -15,14 +15,12 @@ CREATE TABLE IF NOT EXISTS `Communiques` (
   `nb_gueris` int(5) NOT NULL DEFAULT 0,
   `nb_deces` int(5) NOT NULL DEFAULT 0,
   `date_extraction`varchar(10)  DEFAULT NULL
-
 );
 
 --Création de la table Regions
 CREATE TABLE IF NOT EXISTS `Regions` (
   `NomRegion` varchar(50) DEFAULT "NULL" PRIMARY KEY,
-  `Nbre_Cas` int(5) NOT NULL DEFAULT 0
-  
+  `Nbre_Cas` int(5) NOT NULL DEFAULT 0 
 );
 
 --Insertion de valeur dans la table Region
