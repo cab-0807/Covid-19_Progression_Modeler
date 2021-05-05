@@ -4,7 +4,7 @@ import os
 
 
 
-def dataAcquisition():
+def dataAcquisition(): #permet de récupérer les données  
     os.chdir("/Users/mac/Documents/COURS/DIC2/SGBD Avancé/Projet/Covid-19_Progression_Modeler/DataAcquisition")
     os.system("python3 DataAcquisition.py")
 
