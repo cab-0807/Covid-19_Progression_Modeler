@@ -1,9 +1,0 @@
-id_com 396
-date__ 1-4-2021
-nb_test 1659
-nb_nv_cas 77
-nb_cas_contact 17
-nb_cas_communautaire 60
-nb_gueris 37434
-nb_deces 1054
-date___heure_extraction 2021-04-13

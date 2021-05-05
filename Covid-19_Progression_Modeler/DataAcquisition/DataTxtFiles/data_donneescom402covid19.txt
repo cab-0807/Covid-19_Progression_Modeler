@@ -1,9 +1,0 @@
-id_com 402
-date__ 07-4-2021
-nb_test 867
-nb_nv_cas 377
-nb_cas_contact 13
-nb_cas_communautaire 
-nb_gueris 37888
-nb_deces 1070
-date___heure_extraction 2021-04-13

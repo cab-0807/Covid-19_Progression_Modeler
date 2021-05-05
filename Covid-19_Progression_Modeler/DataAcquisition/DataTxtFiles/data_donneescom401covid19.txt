@@ -1,9 +1,0 @@
-id_com 401
-date__ 06-4-2021
-nb_test 793
-nb_nv_cas 34
-nb_cas_contact 13
-nb_cas_communautaire 21
-nb_gueris 37822
-nb_deces 1065
-date___heure_extraction 2021-04-13
