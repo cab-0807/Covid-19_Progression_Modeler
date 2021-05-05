@@ -5,7 +5,7 @@ import json
 from datetime import date, time, datetime
 from tkinter import *
 import tkinter.messagebox 
-#------------------------------Main Function (récupération, correction des mots, ... Conversion vers JSON )--------------------------
+#------------------------------Main Function (récupération du communique , correction des mots, ... Conversion vers JSON )--------------------------
 def transformTEXToJSON(path):
     aujourdhui=date.today()
     #date__ 

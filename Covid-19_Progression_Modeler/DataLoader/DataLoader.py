@@ -15,7 +15,7 @@ def soumettre_click():
         file.write("%s\n" %pwd)
     file.close()
     os.system("mysql -u "+usr+" --password="+pwd+" < DataLoader.sql")
-
+    #Connexion à la base de données
     try:
         con = mysql.connector.connect(
             user=usr, 
@@ -118,9 +118,9 @@ def rback():
 lesMois = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet','aout','septembre','octobre','novembre','décembre']
 ListeDATE=[]
 
-for MOIS in range(len(lesMois)):
+for MOIS in range(len(lesMois)): #On parcourt 1 à 1 tous les fichiers JSON
     file = "../DataAcquisition/JSONFiles/"+lesMois[MOIS].upper()+".json"
-    if(os.path.getsize(file)!=0):
+    if(os.path.getsize(file)!=0): #On regarde d'abord si le fichier json choisi n'est pas vide
         json_data=open(file).read()
         json_obj = json.loads(json_data)
         ListeNO={'id_com', 'date','nb_test','nb_nv_cas','nb_cas_contact','nb_cas_communautaire','nb_gueris','nb_deces','date_heure_extraction'}
