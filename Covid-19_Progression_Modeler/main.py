@@ -8,11 +8,11 @@ def dataAcquisition(): #permet de récupérer les données
     os.chdir("/Users/mac/Documents/COURS/DIC2/SGBD Avancé/Projet/Covid-19_Progression_Modeler/DataAcquisition")
     os.system("python3 DataAcquisition.py")
 
-def dataLoader():
+def dataLoader(): #Charge les fichiers JSON dans la base 
     os.chdir("/Users/mac/Documents/COURS/DIC2/SGBD Avancé/Projet/Covid-19_Progression_Modeler/DataLoader")
     os.system("python3 DataLoader.py")
 
-def dataExplorer():
+def dataExplorer(): #Affiche la carte du pays 
     os.chdir("/Users/mac/Documents/COURS/DIC2/SGBD Avancé/Projet/Covid-19_Progression_Modeler/DataExplorer")
     os.system("python3 DataExplorer.py")
 
