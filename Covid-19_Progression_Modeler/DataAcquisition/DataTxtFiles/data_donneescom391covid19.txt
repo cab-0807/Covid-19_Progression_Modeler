@@ -1,0 +1,9 @@
+id_com 391
+date__ 27-3-2021
+nb_test 1842
+nb_nv_cas 102
+nb_cas_contact 47
+nb_cas_communautaire 0
+nb_gueris 36422
+nb_deces 1034
+date___heure_extraction 2021-04-13
