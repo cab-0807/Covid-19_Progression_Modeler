@@ -26,7 +26,7 @@ if(os.path.getsize("../DataLoader/temp.txt")!=0):
                 host='127.0.0.1',
                 database='DataLoader')
     curseur= con.cursor()
-
+#Rechercher le nombbre de cas de la région
 request = "SELECT Nbre_Cas from Regions WHERE NomRegion="+"'"+sys.argv[1]+"'"+""
 curseur.execute(request)
 Nbre_Cas=curseur.fetchone()
@@ -35,7 +35,7 @@ print(Nbre_Cas[0])
 def details():
     x=[]
     y=[]
-    N_total=0
+
     request = "SELECT date from Communiques "
     curseur.execute(request)
     Dates=curseur.fetchall()

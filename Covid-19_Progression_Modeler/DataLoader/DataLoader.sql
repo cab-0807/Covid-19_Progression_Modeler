@@ -1,10 +1,11 @@
-
 CREATE DATABASE IF NOT EXISTS `DataLoader` ;
+
 
 
 USE `DataLoader`;
 
-CREATE TABLE IF NOT EXISTS `Communiques` (
+--Création de la table Communiques
+CREATE TABLE IF NOT EXISTS `Communiques`(
   `id_communique` int(5) PRIMARY KEY,
   `date` varchar(50) DEFAULT "NULL",
   `nb_test` int(5) NOT NULL DEFAULT 0,
@@ -14,6 +15,8 @@ CREATE TABLE IF NOT EXISTS `Communiques` (
   `nb_gueris` int(5) NOT NULL DEFAULT 0,
   `nb_deces` int(5) NOT NULL DEFAULT 0,
   `date_extraction`varchar(10)  DEFAULT NULL
+);
+
 
 ) engine=InnoDB;
 
@@ -23,6 +26,8 @@ CREATE TABLE IF NOT EXISTS `Regions` (
   `id_regions` int NOT NULL
   
 ) engine=InnoDB;
+
+--Ajout des valeurs
 INSERT INTO `Regions` VALUES ("DAKAR",0,5) ;
 INSERT INTO `Regions` VALUES ("DIOURBEL",0,6) ;
 INSERT INTO `Regions` VALUES ("FATICK",0,14) ;
@@ -37,4 +42,3 @@ INSERT INTO `Regions` VALUES ("SAINT-LOUIS",0,9) ;
 INSERT INTO `Regions` VALUES ("TAMBACOUNDA",0,2) ;
 INSERT INTO `Regions` VALUES ("THIES",0,4) ;
 INSERT INTO `Regions` VALUES ("ZIGUINCHOR",0,10) ;
-
