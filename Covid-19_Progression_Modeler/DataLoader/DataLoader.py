@@ -42,7 +42,7 @@ def touche_entree(event):
 # fenêtre principale
 fenetre = Tk()
 fenetre.title('DATA LOADER')
-messagebox.showinfo("Alert","Ce module permet le chargement des données téléchargées vers un serveur de base de données relationnelles en ligne") 
+messagebox.showinfo("Alert","Ce module permet le chargement des données téléchargées vers un serveur de base de données MySQL") 
 fenetre.bind("<Return>", touche_entree) # bouton par défaut
  
 # libellé
