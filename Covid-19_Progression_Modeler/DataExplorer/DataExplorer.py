@@ -105,12 +105,3 @@ class Window(QtWidgets.QWidget):
             </svg>
                 ''' #dimension relative aux parties de la carte (régions)
         self.viewer.set_svg(img)
-if __name__ == '__main__':
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    window = Window()
-    window.setGeometry(50,50,759,668)
-    window.show()
-    
-    sys.exit(app.exec_())
-
