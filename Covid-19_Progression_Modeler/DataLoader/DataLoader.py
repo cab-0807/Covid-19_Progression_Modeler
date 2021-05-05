@@ -275,7 +275,9 @@ for MOIS in range(len(lesMois)): #On parcourt 1 à 1 tous les fichiers JSON
         b2=Button(my_w,text="Non",command=lambda: rback())
         b2.grid(row=2,column=0)
         my_w.mainloop()
-                 
+
+     #else:
+        #print("Pas de données enregistrées pour le mois: "+lesMois[j].upper()+"")                    
     ListeDATE[:] = []
 
 curseur.close()
