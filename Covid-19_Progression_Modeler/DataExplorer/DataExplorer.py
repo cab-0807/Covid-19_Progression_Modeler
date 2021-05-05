@@ -30,6 +30,7 @@ class SvgViewer(QtWidgets.QGraphicsView):
         self._renderer = QSvgRenderer()
         self.setScene(self._scene)
 
+#Liste des regions sur la carte obtenue
     def set_svg(self, data):
         self.resetTransform()
         self._scene.clear()
@@ -77,7 +78,7 @@ class Window(QtWidgets.QWidget):
         self.viewer = SvgViewer(self)
         vb_layout = QtWidgets.QVBoxLayout(self)
         vb_layout.addWidget(self.viewer)
-        img = b'''
+        img = b''' 
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
                       <text id="t" x="250" y="150"
                             font-family="Verdana"
@@ -102,7 +103,7 @@ class Window(QtWidgets.QWidget):
                     </g>
                     
             </svg>
-                '''
+                ''' #dimension relative aux parties de la carte (régions)
         self.viewer.set_svg(img)
 if __name__ == '__main__':
     import sys
